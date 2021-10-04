@@ -3,7 +3,7 @@
 
 
 body{
-    background-color: aquamarine;
+    background-color: rgb(185, 255, 249);
 }
 
 *{
@@ -11,7 +11,7 @@ body{
 }
 
 .header {
-    background-color: #8df8eff5;
+    background-color: #8df8ef;
     padding: 20px;
     text-align: center;
     font-size: x-large;
@@ -25,9 +25,25 @@ body{
     text-align: center;
     padding:14px 16px;
     text-decoration: white;
-    background-color: #e6ccb2;
+    background-color: #8df8efc4;
 }
 .top a :hover{
     background-color: #ddb892;
     color: black;
+}
+img.home1{
+    float: left;
+}
+
+
+
+
+/* Homepage */
+
+
+h2.home1{
+    clear: both;
+}
+p.home1{
+    clear: both;
 }

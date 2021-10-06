@@ -11,12 +11,12 @@
 <body>
     
     <div class="header">
-        <img class= "home1" src="logo-FLL.png" alt="Logo" width="150px" height="150px">
+        <img class= "home1" src="../Images/logo-FLL.png" alt="Logo" width="150px" height="150px">
         <h1>Fast Language Learning</h1>
         </div>
     
         <div class="top">
-            <a href="index.html">Home</a>
+            <a href="../index.html">Home</a>
             <a href="news.html">News</a>
             <a href="products.html">Products</a>
             <a href="#">About</a>
@@ -36,39 +36,9 @@
             <p>Has worked here for 2 years</p>
         </div>
     </div>
-    <button id="person">Person 2</button>
-
-    <div id="myModal" class="modal">
-        <div class="personContent">
-            <span class="close">&times;</span>
-            <h4>Education</h4>
-            <p>Took a bachelor at OsloMet</p>
-            <h4>Work</h4>
-            <p>Has worked here for 2 years</p>
-        </div>
-    </div>
 
     <script>
         var modal = document.getElementById("myModal");
-
-        var btn = document.getElementById("person");
-
-        var span = document.getElementsByClassName("close")[0];
-
-        btn.onclick = function() {
-        modal.style.display = "block";
-        }
-
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-    var modal = document.getElementById("myModal");
 
         var btn = document.getElementById("person");
 

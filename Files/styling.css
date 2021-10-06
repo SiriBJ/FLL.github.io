@@ -109,9 +109,20 @@ h1.about1{
 }
 .button-group button{
     display: block;
-    margin: 5%;
+    margin-left: 10%;
 }
-
+.button-group img{
+    padding: 10px 0;
+    margin-left: 10%;
+}
+.text-about{
+    float: right;
+    width: 50%;
+}
+h3.about1{
+    font-size: x-large;
+    font-style: italic;
+}
 /*Pop-up in About us*/
 
 .modal {

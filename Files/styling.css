@@ -43,9 +43,30 @@ img.home1{
 
 h2.home1{
     clear: both;
+    margin-left: 40%;
+    padding-top: 30px;
 }
 p.home1{
     clear: both;
+    margin-left: 40%;
+    padding-top: 30px;
+}
+
+ul.home1{
+    clear: both;
+    font-size: 25px;
+    text-align: left;
+    float: left;
+    line-height: 70px;
+}
+
+.robot {
+    height: 400px;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 60px;
+    float: right;
+    
 }
 
 /* Products */
@@ -107,6 +128,7 @@ h1.about1{
     text-align: center;
     margin-top: 5%;
 }
+
 .button-group button{
     display: block;
     margin-left: 10%;
@@ -118,6 +140,8 @@ h1.about1{
 .text-about{
     float: right;
     width: 50%;
+    margin-right: 10%;
+    font-size: 15pt;
 }
 h3.about1{
     font-size: x-large;

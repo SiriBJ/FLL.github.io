@@ -76,15 +76,43 @@ h1.products1{
     text-align: center;
     margin-top: 5%;
 }
-.products-and-text{
-    text-align: center;
-    font-size: larger;
+.box{
+    width: 1600px;
+    height: 450px;
+    background-color: turquoise;
+}
+.products-and-text1{
     width: 400px;
     margin-left: 5%;
+    height: 420px;
+    float: left;
+}
+.products-and-text2{
+    width: 400px;
+    margin-left: 5%;
+    float: left;
+}
+.products-and-text3{
+    width: 400px;
+    margin-left: 5%;
+    float: left;
 }
 .products-and-text img{
     display: block;
-    margin: 0 auto;
+    margin-bottom: 5%;
+}
+.products-and-text button{
+    margin-bottom: 5%;
+}
+p.products1{
+    font-size: larger;
+    text-align: left;
+}
+p.products2{
+    margin-left: 40%;
+    text-align: center;
+    display: inline;
+    padding-right: 10%;
 }
 
 /* Contact */

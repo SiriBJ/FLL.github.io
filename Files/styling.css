@@ -1,13 +1,13 @@
 
 /* General */
 
-
 body{
     background-color: azure;
 }
 
 *{
     box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 .header {
@@ -16,7 +16,6 @@ body{
     padding: 20px;
     text-align: left ;
     font-size: x-large;
-    font-family:Georgia, 'Times New Roman', Times, serif
 }
 .header h1{
     margin-left: 40px;
@@ -32,7 +31,7 @@ body{
     font-size: larger;
     text-decoration: white;
     font-weight: 900;
-    background-color: #00e1f6;
+    background-image:linear-gradient(to bottom, #00a3fc, #00e1f6);
 }
 
 .top a :hover{
@@ -54,14 +53,7 @@ p.home1{
     clear: both;
     margin-left: 40%;
     padding-top: 30px;
-}
-
-ul.home1{
-    clear: both;
-    font-size: 25px;
-    text-align: left;
-    float: left;
-    line-height: 70px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .robot {
@@ -91,16 +83,6 @@ h1.products1{
     height: 420px;
     float: left;
 }
-.products-and-text2{
-    width: 400px;
-    margin-left: 5%;
-    float: left;
-}
-.products-and-text3{
-    width: 400px;
-    margin-left: 5%;
-    float: left;
-}
 .products-and-text img{
     display: block;
     margin-bottom: 5%;
@@ -108,15 +90,19 @@ h1.products1{
 .products-and-text button{
     margin-bottom: 5%;
 }
+h2.products1{
+    text-align: center;
+}
 p.products1{
-    font-size: larger;
-    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 p.products2{
     margin-left: 40%;
     text-align: center;
     display: inline;
     padding-right: 10%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Contact */
@@ -131,27 +117,47 @@ P.contact1{
     font-size: larger;
     text-decoration: underline;
     color: blue;
+    font-family: 'Times New Roman', Times, serif;
 }
 p.contact2{
     text-align: center;
     color: cornflowerblue;
     text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
 }
 p.contact3{
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
-.contact1-questionare{
-    margin-top: 3%;
+.contact-questionare{
+    width: 50%;
+    float: left;
+}
+.que1{
+    float: left;
+    width: 50%;
+    margin-left: 35%;
+}
+input[type=text], select, textarea {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
     text-align: center;
-}
-.contact1-questionare img{
-    display: block;
-    margin: 0 auto;
-
-}
-button.contact1{
-    margin-top: 10px;
-}
+  }
+  input[type=submit] {
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 47%;
+    margin-top: 15px;
+  }
+  label{
+      text-align: center;
+  }
 
 /* About us */
 
@@ -160,18 +166,9 @@ h1.about1{
     text-align: center;
     margin-top: 5%;
 }
-
-.button-group button{
-    display: block;
-    margin-left: 10%;
-}
-.button-group img{
-    padding: 10px 0;
-    margin-left: 10%;
-}
 .text-about{
     float: right;
-    width: 50%;
+    width: 45%;
     margin-right: 10%;
     font-size: 15pt;
 }
@@ -179,197 +176,30 @@ h3.about1{
     font-size: x-large;
     font-style: italic;
 }
-p.about2{
-    margin-top: 40px;
+p.about1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-people{
+    float: left;
+    width: 45%;
+}
+.about-people img{
+    padding-left: 10%;
+}
+.about-people h4{
+    padding-left: 10%;
+}
+p.about-mail{
+    padding-left: 10%;
     font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
 }
-p.about3{
-    margin-top: -6px;
+p.about2{
+    padding-left: 10%;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
 }
-/*Pop-up in About us*/
 
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .personContent {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-.modal2 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .personContent2 {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
-  
-  /* The Close Button */
-  .close2 {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close2:hover,
-  .close2:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-  .modal3 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .personContent3 {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
-  
-  /* The Close Button */
-  .close3 {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close3:hover,
-  .close3:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  .modal4 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .personContent4 {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
-  
-  /* The Close Button */
-  .close4 {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close4:hover,
-  .close4:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  .modal5 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content/Box */
-  .personContent5 {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
-  
-  /* The Close Button */
-  .close5 {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close5:hover,
-  .close5:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
 /* News */
 h2.news1{
     text-align: center;
@@ -379,6 +209,7 @@ h2.news1{
 p.news1{
     text-align: center;
     font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
 }
 img.news1{
     display: block;

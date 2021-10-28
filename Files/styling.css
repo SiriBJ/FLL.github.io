@@ -125,18 +125,20 @@ h1.contact1{
 }
 P.contact1{
     text-align: center;
-    font-size: larger;
+    font-size: x-large;
     text-decoration: underline;
     color: blue;
     font-family: 'Times New Roman', Times, serif;
 }
 p.contact2{
+    font-size: larger;
     text-align: center;
     color: cornflowerblue;
     text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
 }
 p.contact3{
+    font-size: larger;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -156,6 +158,7 @@ input[type=text], select, textarea {
     border-radius: 4px;
     resize: vertical;
     text-align: center;
+    font-size: larger;
   }
   input[type=submit] {
     color: black;
@@ -222,8 +225,22 @@ p.news1{
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
 }
+.news-images{
+    width: 100%;
+    
+}
 img.news1{
-    display: block;
-    margin-left: auto;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: auto;
+}
+img.news2{
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: auto;
+}
+img.news3{
+    display: inline-block;
+    margin-left: 2%;
     margin-right: auto;
 }

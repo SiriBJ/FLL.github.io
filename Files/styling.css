@@ -12,7 +12,7 @@ body{
 
 .header {
     height: 180px;
-    background-image:linear-gradient(to bottom, white, #00a3fc) ;
+    background-image:linear-gradient(to bottom, white, #00c2f9) ;
     padding: 20px;
     text-align: left ;
     font-size: x-large;
@@ -31,7 +31,7 @@ body{
     font-size: larger;
     text-decoration: white;
     font-weight: 900;
-    background-image:linear-gradient(to bottom, #00a3fc, #00e1f6);
+    background-image:linear-gradient(to bottom, #00c2f9, #00e1f6);
 }
 
 .top a :hover{
@@ -44,25 +44,36 @@ img.home1{
 
 /* Homepage */
 
-h2.home1{
-    clear: both;
-    margin-left: 40%;
-    padding-top: 30px;
-}
 p.home1{
     clear: both;
-    margin-left: 40%;
-    padding-top: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Garamond', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+}
+p.home2{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    font-size: larger;
+}
+p.home3{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    font-size: larger;
 }
 
-.robot {
-    height: 400px;
+.logo {
+    height: 250px;
     width: auto;
-    margin-left: 50px;
-    margin-right: 60px;
-    float: right;
-    
+    margin-left: 5%;
+    margin-top: 10%;
+    float: left;
+    margin-bottom: 0;
 }
 
 /* Products */

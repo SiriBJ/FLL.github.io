@@ -98,8 +98,11 @@ h1.products1{
     display: block;
     margin-bottom: 5%;
 }
-.products-and-text button{
+.products-and-text1 button{
     margin-bottom: 5%;
+    height: 30px;
+    width: 100px;
+    font-size: 16px;
 }
 h2.products1{
     text-align: center;
@@ -199,6 +202,9 @@ p.about1{
 }
 .about-people img{
     padding-left: 10%;
+    border-radius: 25px;
+    height: 200px;
+    width: auto;
 }
 .about-people h4{
     padding-left: 10%;

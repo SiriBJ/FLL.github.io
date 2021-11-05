@@ -119,62 +119,91 @@ p.products2{
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
 /* Contact */
 
 h1.contact1{
     clear: both;
+    font-size: 50px;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
-P.contact1{
+a.contact1{
+    margin-left: 48%;
+    margin-top: 4%;
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
     text-decoration: underline;
     color: blue;
     font-family: 'Times New Roman', Times, serif;
 }
 p.contact2{
-    font-size: larger;
+    margin: 2%;
+    font-size: x-large;
     text-align: center;
     color: cornflowerblue;
     text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
 }
 p.contact3{
-    font-size: larger;
+    margin: 2%;
+    font-size: x-large;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-.contact-questionare{
-    width: 50%;
-    float: left;
+/* FAQ */
+h1.FAQ{
+    clear: both;
+    text-align: center;
+    margin-top: 10%;
 }
-.que1{
-    float: left;
-    width: 50%;
-    margin-left: 35%;
+h3.FAQ2{
+    text-align: center;
+    margin-top: 5%;
+    font-size: x-large;
 }
-input[type=text], select, textarea {
-    width: 60%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
+p.FAQ3{
     text-align: center;
     font-size: larger;
-  }
-  input[type=submit] {
-    color: black;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: 47%;
-    margin-top: 15px;
-  }
-  label{
-      text-align: center;
-  }
+}
 
 /* About us */
 
